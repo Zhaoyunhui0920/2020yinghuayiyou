@@ -1,0 +1,415 @@
+body {
+    background-color: #f5f5f5;
+}
+ .head-wrap{
+    height: 0;
+    display: none;
+}
+.nav{
+    height: 0;
+    display: none;
+}
+
+.mainone{
+    height: 0;
+    display: none;
+}
+/* 
+.maintwo{
+    height: 0;
+    display: none;
+}
+.mainthr{
+    height: 0;
+    display: none;
+}
+.mainfour{
+    height: 0;
+    display: none;
+}
+.footer{
+    height: 0;
+    display: none;
+} */
+/* 小网页 */
+.navmin {
+    height: 105px;
+    border: none;
+    background-color: #fff;
+    position: relative;
+}
+.navbar-brand img{
+    position: relative;
+    top: -70px;
+}
+#bn1 {
+    background: url("img/banner.jpg") center;
+    height: 365px;
+    background-size: cover;
+    color: #fff;
+    border-bottom: 4px solid #e1e1e1;
+}
+.ksdz {
+    background-color: #e8420a;
+    width: 160px;
+    height: 50px;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    /* top: 30px;
+    left: 250px; */
+    margin-top: 30px;
+    margin-left: 350px;
+}
+.navbar-brandimg {
+    line-height: 50%;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.active a {
+    color: #e8420a;
+    border-bottom: 4px solid #e8420a;
+}
+
+ .navbar-nav li a {
+    font-size: 20px;
+    color: #000;
+    height: 70px;
+    background-color: #fff;
+    line-height: 50px;
+    margin-left: 75px;
+}
+
+.navbar-toggle {
+    height: 80px;
+    border: none;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #000;
+    display: block;
+    width: 45px;
+    height: 4px;
+    border-radius: 1px;
+    margin-top: 15px;
+}
+
+.container-fluid>.navbar-collapse,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container>.navbar-header {
+    height: 105px;
+    margin: 0 auto;
+} 
+
+
+.banner{
+    height: 0;
+    display: none;
+}
+.bannermin{
+    height: 365px;
+    position: relative;
+    top: 5px;
+    /* background-image:url("img/banner.jpg") no-repeat; */
+}
+.bannermin h3{
+    color: white;
+    position: relative;
+    top: 60px;
+    left: -140px;
+}
+.bannermin h4{
+    color: white;
+
+    position: relative;
+    top: 90px;
+    left: 80px;
+}
+.searchmin{
+    height: 65px;
+    width: 650px;
+    position: relative;
+    top:210px;
+    left:40px
+}
+.sleftmin{
+    width: 145px;
+    height: 50px;
+    background-color: rgb(211,211, 216);
+    float: left;
+}
+.sleftmin span{
+    color:rgb(86, 86,88);
+}
+.sleftmin span img{
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+}
+.sleftmin span p{
+    margin-top: 15px;
+}
+.smiddlemin{
+    /* float: left; */
+    height: 50px;
+    width: 450px;
+    background-color:white;
+}
+.smiddlemin p{
+    color: rgb(134, 134, 134);
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.srightmin{
+    height: 50px;
+    width: 135px;
+    background-color: rgb(226, 122, 52);
+    position: relative;
+    top: -50px;
+    left: 450px;
+}
+.srightmin img{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.onemin{
+    height: 200px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.onemin img{
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.onemin h4{
+    font-size: 25px;
+    color: rgb(20, 49, 109) ;
+    position: relative;
+    top: -60px;
+    left: 160px;
+}
+.onemin p{
+    font-size: 15px;
+    color: gray ;
+    margin-top: -50px;
+    margin-left: 160px;
+}
+.onemin button{
+    position: relative;
+    top: -80px;
+    left: 500px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.maintwo{
+    height: 0;
+    display: none;
+}
+.twomin{
+    height: 700px;
+    position: relative;
+    top:20px;
+    background-color: white;
+}
+.tleft1{
+    width: 590px;
+    height: 300px;
+    border-bottom: 1px solid rgb(190, 189, 189);
+    position: relative;
+    left: 20px;
+}
+.t1word{
+    font-size: 20px;
+    height: 25px;
+    border-left: 2px solid orange;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+}
+.tleft1 img{
+    position: relative;
+    top: 60px; 
+    height: 270px;
+    width: 590px;
+}
+.tleft2 img{
+    width: 590px;
+    height: 270px;
+    position: relative;
+    left: 20px;
+    top: 130px;
+}
+.tleftword{
+    color: white;
+    width: 590px;
+    background-color: black;
+    height:90px; 
+    position: relative;
+    top: 60px;
+}
+.tleft1 .p1{
+    font-size: 15px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.tleft1 .p2{
+    font-size: 15px;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 300px;
+}
+.p2 span{
+    font-size: 25px;
+}
+.tleft2 .tleftword{
+    top: 130px;
+    left: 20px;
+}
+.tleft2 .p1{
+    font-size: 15px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.tleft2 .p2{
+    font-size: 15px;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 300px;
+}
+.btumore{
+    position: relative;
+    top: 160px;
+    left: 230px;
+    height: 100px;
+    width: 250px;
+
+    font-size: 25px;
+}
+.btumore button{
+    border-radius: 5px;
+    width: 180px;
+}
+
+#back{
+    height: 0px;
+    /* display: none; */
+}
+.mainthr{
+    height: 0;
+    display: none;
+}
+.thrmin{
+    width: 600px;
+    height:900px;
+    position: relative;
+    top: 280px;
+    left: 20px;
+}
+.thr1{
+    width: 590px;
+    height: 100px;
+    border-bottom: 1px solid gray;
+    position: relative;
+    top: -40px;
+}
+.thrword{
+    font-size: 20px;
+
+    width: 590px;
+    height: 30px;
+    border-left: 2px solid orange;
+    position: relative;
+    top: 50px;
+}
+.thrword span{
+    font-size: 25px;
+}
+#img1{
+    position: relative;
+    top: 20px;
+}
+.thr2 {
+    position: relative;
+    top: 30px; 
+}
+.thr2 p{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+#img2{
+    position: relative;
+    top:70px;
+}
+.thr3{
+    width: 590px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+.thr31{
+    height: 120px;
+    border-bottom: 1px solid rgb(184, 182, 182);
+}
+.thr31 img{
+    float: left;
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
+.thr31 p{
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+#thr31-2 p{
+    position: relative;
+    left: 160px;
+    top: 40px;
+}
+.end{
+    width: 650px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    top: 850px;
+}
+.end p{
+    color: white;
+    font-size: 17px;
+    position: relative;
+    top: 60px;
+}
+
+
+
+
+
+.mainfour{
+    height: 0;
+    display: none;
+}
+.footer{
+    height: 0;
+    display: none;
+}
+
